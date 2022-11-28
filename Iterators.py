@@ -7,5 +7,15 @@ print(next(new_iterator))
 print(next(new_iterator))
 print(next(new_iterator))
 print(next(new_iterator))
+seq ="Iterator tutorial in python"
+new_iterator = iter(seq)
+print(next(new_iterator))
+print(next(new_iterator))
+print(next(new_iterator))
+print(next(new_iterator))
+print(next(new_iterator))
+print(next(new_iterator))
+print(next(new_iterator))
+
 
 
