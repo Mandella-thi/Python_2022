@@ -16,6 +16,14 @@ print(next(new_iterator))
 print(next(new_iterator))
 print(next(new_iterator))
 print(next(new_iterator))
+def new_iterator1(n):
+    my_iterable = iter(n)
+    while True:
+        try:
+            print(next(my_iterable))
+        except StopIteration:
+            break
+new_iterator1(seq)
 
 
 
