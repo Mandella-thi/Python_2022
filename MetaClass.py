@@ -17,3 +17,11 @@ class Player:
     Player= type('Player', (),{'__init__': init})
     new_obj = Player("Ahmed",'70')
     print(new_obj.__class__)
+
+class NewMeta(type):
+    __metaclass__ = type
+class NewDemo:
+    __metaclass__ = NewMeta
+new_object = NewDemo()
+print(new_object.__metaclass__)
+print(NewMeta.__metaclass__)
