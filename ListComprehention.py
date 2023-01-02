@@ -13,3 +13,10 @@ for item in fruits_list:
 
 print(mo_list)
 
+newList = []
+for new_char in "Power of comprehension!":
+    newList.append(new_char)
+
+print(newList)
+newList2 =[new_char for new_char in "Power of comprehension!"]
+print(newList2)
