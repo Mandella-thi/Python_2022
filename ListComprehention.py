@@ -20,3 +20,14 @@ for new_char in "Power of comprehension!":
 print(newList)
 newList2 =[new_char for new_char in "Power of comprehension!"]
 print(newList2)
+
+new_matrix =[]
+for x in range(5):
+    new_matrix.append([])
+    for y in range(8):
+        new_matrix[x].append(y)
+print(new_matrix)
+
+new_matrix2 =[ [y for y in range(8)] for x in range (5)]
+print("qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq")
+print(new_matrix2)
